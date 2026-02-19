@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --partiful-bg: #0D0D0F;
+  --partiful-card: #1C1C1F;
+  --partiful-text: #FAFAFA;
+  --partiful-muted: #A1A1A6;
+  --partiful-accent: #A855F7;
+  --partiful-accent-pink: #EC4899;
+}
+
+body {
+  @apply antialiased;
+  min-height: 100vh;
+  background: var(--partiful-bg);
+  color: var(--partiful-text);
+}
+
+.max-w-mobile {
+  max-width: 430px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@keyframes skeleton-pulse {
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 1; }
+}
+
+.skeleton {
+  @apply rounded-xl;
+  background: rgba(255, 255, 255, 0.06);
+  animation: skeleton-pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes toast-in {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.toast-enter {
+  animation: toast-in 0.25s ease-out;
+}
+
+.bg-partiful-gradient {
+  background: linear-gradient(135deg, rgba(168, 85, 247, 0.2) 0%, rgba(236, 72, 153, 0.15) 100%);
+}
+
+.bg-partiful-card {
+  background: #1C1C1F;
+}
+
+.border-partiful {
+  border-color: #2D2D32;
+}
