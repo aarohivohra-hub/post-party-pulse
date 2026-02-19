@@ -10,7 +10,7 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000). Best viewed at mobile width (~390px) or desktop.
+Open [https://post-party-pulse.vercel.app/). Best viewed at mobile width (~390px) or desktop.
 
 ## Screen map (routes → flow)
 
