@@ -3,13 +3,6 @@
 A clickable front-end prototype of **Partiful’s Post-Party Pulse** feature: designed to help hosts understand how their events went — and to learn from them — through lightweight reflections and aggregated insights. No backend, database, or auth — mock data and in-memory/localStorage only.
 
 ## How to run
-
-```bash
-cd post-party-pulse
-npm install
-npm run dev
-```
-
 Open [https://post-party-pulse.vercel.app/). Best viewed at mobile width (~390px) or desktop.
 
 ## Screen map (routes → flow)
