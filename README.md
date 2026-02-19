@@ -1,6 +1,6 @@
 # Post-Party Pulse — MVP Prototype
 
-A clickable front-end prototype of **Partiful’s Post-Party Pulse** feature: lightweight, positive post-event feedback for casual hosts. No backend, database, or auth — mock data and in-memory/localStorage only.
+A clickable front-end prototype of **Partiful’s Post-Party Pulse** feature: designed to help hosts understand how their events went — and to learn from them — through lightweight reflections and aggregated insights. No backend, database, or auth — mock data and in-memory/localStorage only.
 
 ## How to run
 
